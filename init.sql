@@ -3,9 +3,9 @@ CREATE TABLE FILESFOLDERS (
     parentDirectoryId INTEGER NOT NULL,
     name VARCHAR(255) NOT NULL,
     sizeKB INTEGER,
-    dimensions CHAR(10),
-    format CHAR(10),
-    metadata CHAR(10) NOT NULL,
+    dimensions VARCHAR(10),
+    format VARCHAR(10),
+    metadata VARCHAR(10) NOT NULL,
 )
 
 CREATE TABLE TREE (
